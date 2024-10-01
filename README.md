@@ -18,9 +18,6 @@ This repository contains a PowerShell script to automate the installation of Nod
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Py-DragonXx/Rivalz-CLI/refs/heads/main/rivalznode.ps1" -OutFile "rivalznode.ps1"; & "rivalznode.ps1"
 ```
 ### Step 2: Set Execution Policy (Accept with Y, on first run of the script)
-
-OR
-
 Before running scripts on your system, ensure your PowerShell execution policy allows it. You can do this by opening PowerShell as an administrator and running.
 
 ```powershell
