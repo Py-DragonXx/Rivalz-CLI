@@ -15,7 +15,7 @@ This repository contains a PowerShell script to automate the installation of Nod
 
 ### Step 1: Run your powershell in administrator mode, then copy and paste the command below in the terminall
 ```powershell
-Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Py-DragonXx/Rivalz-CLI/main/rivalznode.ps1
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Py-DragonXx/Rivalz-CLI/refs/heads/main/rivalznode.ps1" -OutFile "rivalznode.ps1"; & "rivalznode.ps1"
 ```
 ### Step 2: Set Execution Policy (Accept with Y, on first run of the script)
 
