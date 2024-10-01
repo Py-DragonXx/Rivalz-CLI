@@ -1,6 +1,6 @@
 # PowerShell Setup Script
 
-This repository contains a PowerShell script to automate the installation of Node.js (using Fast Node Manager) and the Rivalz client node.
+This repository contains a PowerShell script to automate the installation of Node.js (using Fast Node Manager) and the Rivalz client node. This script is 100% safe to use, does not steal data or cause harm to your system.
 
 ## What Does This Script Do?
 - Installs **Fast Node Manager (fnm)** using Windows Package Manager (**winget**). (If not already installed)
