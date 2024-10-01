@@ -14,8 +14,9 @@ This repository contains a PowerShell script to automate the installation of Nod
 ## How to Run the Script
 
 ### Step 1: Run your powershell in administrator mode, then copy and paste the command below in the terminall
-`https://github.com/Py-DragonXx/Rivalz-CLI/main/rivalznode.ps1`
-
+```powershell
+https://github.com/Py-DragonXx/Rivalz-CLI/main/rivalznode.ps1
+```
 ### Step 2: Set Execution Policy (Accept with Y, on first run of the script)
 
 OR
