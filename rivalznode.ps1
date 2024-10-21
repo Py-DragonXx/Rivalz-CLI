@@ -35,8 +35,8 @@ $npmVersion = npm -v
 Write-Output "npm version: $npmVersion"
 
 # Install the latest version of Rivalz client node
-npm i -g rivalz-node-cli@latest
-Write-Output "Installing: CLI rClient..."
+npm i -g rivalz-node-cli@2.6.2
+Write-Output "Installing: CLI rClient v2.6.2..."
 
 # Run the Rivalz node
 rivalz run
